@@ -18,7 +18,7 @@ namespace EndersDungeon
 
         static void Start()
         {
-            Console.WriteLine("Adventure Quest");
+            Console.WriteLine("Adventure Quest!");
 
         }
     }
