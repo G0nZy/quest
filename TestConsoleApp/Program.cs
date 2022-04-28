@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,12 +13,14 @@ namespace EndersDungeon
 
         static void Main(string[] args)
         {
-
+            Start();
         }
 
         static void Start()
         {
             Console.WriteLine("Adventure Quest!");
+            Console.WriteLine("Name:");
+            Console.ReadLine();
 
         }
     }
